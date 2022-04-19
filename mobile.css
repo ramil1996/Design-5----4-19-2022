@@ -1,0 +1,82 @@
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-menu ul{
+  display: flex;
+}
+.navbar-menu ul li {
+  list-style-type: none;
+}
+.navbar-menu{
+  display: flex;
+}
+
+.logo-img img{
+  margin: 15px  0px 0 10px;
+  width: 84px;
+  justify-content: space-between;
+  height: 42px;
+}
+.navbar-menu ul li{
+ display: none;
+}
+.navbar-menu button{
+  width: 110px;
+height: 25px;
+background: #4BA87D;
+margin: 25px 20px 0 15px;
+}
+
+.left-step{
+  margin-left: 45px;
+}
+
+.step-main h1{
+  width:489px;
+height: 142px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 59px;
+line-height: 71px
+}
+
+.step-text p{
+  width: 446px;
+height: 52px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 19px;
+line-height: 26px;
+}
+.step-try-button{
+  display: flex;
+}
+.step-try-button .try{
+  grid-auto-rows: auto;
+  width: 200px;
+  height: 65px;
+  background: #4BA87D;
+}
+
+.step-try-button .demo{
+grid-column: auto;
+  margin-left: 45px;
+  width: 200px;
+  height: 65px;
+  background: #4BA87D;
+}
+
+
+.pictures{
+  flex-wrap: wrap;
+  width: 550px;
+}
+
+.pictures img{
+  width: 223px;
+  height: 157px;
+}

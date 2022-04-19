@@ -1,0 +1,34 @@
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar-menu ul{
+  display: flex;
+}
+.navbar-menu ul li {
+  list-style-type: none;
+}
+.navbar-menu{
+  display: flex;
+}
+
+.logo-img img{
+  margin: 30px 30px;
+  width: 84px;
+  height: 42px;
+}
+.navbar-menu ul li{
+  margin: 24px 26px;
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 11px;
+line-height: 13px;
+}
+.navbar-menu button{
+  width: 110px;
+height: 41px;
+background: #4BA87D;
+margin: 25px 38px 0 15px;
+}
